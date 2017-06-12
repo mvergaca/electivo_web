@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Header from '../components/Header.jsx';
 import Home from '../pages/Home.jsx';
+import Login from '../pages/Login.jsx';
 import RoomChat from '../pages/RoomChat.jsx';
 import NotFound from '../pages/NotFound.jsx';
 
@@ -15,6 +16,7 @@ export default class MainLayout extends React.Component {
             <Switch>
               <Route exact path='/' component={Home} />
               <Route exact path='/RoomChat' component={RoomChat} />
+              <Route exact path='/login' component={Login} />
               <Route component={NotFound} />
             </Switch>
         </div>

@@ -17,7 +17,7 @@ export default class Header extends React.Component {
           <NavItem eventKey={2} href="/RoomChat">RoomChat</NavItem>
         </Nav>
         <Nav pullRight>
-          <NavItem eventKey={3} href="#">Cerrar Sesion</NavItem>
+          <NavItem eventKey={3} href="/login">Cerrar Sesion</NavItem>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

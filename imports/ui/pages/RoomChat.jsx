@@ -9,7 +9,7 @@ function RoomChat(){
         <Row className="clearfix">
           <Col sm={4}>
             <Nav bsStyle="pills" stacked>
-              <NavItem eventKey="first">
+              <NavItem eventKey="first">//insertar los usuarios y/o usuarios conectados aqui con un foreach
                 Primer Usuario
               </NavItem>
               <NavItem eventKey="second">
@@ -17,7 +17,7 @@ function RoomChat(){
               </NavItem>
             </Nav>
           </Col>
-          <Col sm={8}>
+          <Col sm={4}>
             <Tab.Content animation>
               <Tab.Pane eventKey="first">
                 Tab 1 content
